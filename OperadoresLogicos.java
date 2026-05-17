@@ -1,22 +1,16 @@
-public class OperadoresLogicos {
+class OperadoresLogicos {
     public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
 
-        System.out.println("Operador AND (&&):");
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
-        System.out.println();
+        // Operador AND (&&)
+        System.out.println("a && b = " + (a && b));
 
-        System.out.println("Operador OR (||):");
-        System.out.println(true || true);
-        System.out.println(true || false);
-        System.out.println(false || true);
-        System.out.println(false || false);
-        System.out.println();
+        // Operador OR (||)
+        System.out.println("a || b = " + (a || b));
 
-        System.out.println("Operador NOT (!):");
-        System.out.println(!true);
-        System.out.println(!false);
+        // Operador NOT (!)
+        System.out.println("!a = " + (!a));
+        System.out.println("!b = " + (!b));
     }
 }
