@@ -1,8 +1,8 @@
 
 class OperadoresAritmeticos {
     public static void main(String[] args) {
-        int numero1 = 7;
-        int numero2 = 5;
+        double numero1 = 7.0;
+        double numero2 = 5.0;
 
         System.out.println("Operaciones con \"numero1\" y \"numero2\":");
         System.out.println(numero1 + numero2);
